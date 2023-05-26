@@ -1,0 +1,79 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+button {
+  background-color: #ffffff;
+  color: #dd1264;
+  border-radius: 6px;
+  height: 40px;
+  min-width: 120px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-left: 10px;
+
+  align-self: center;
+  /* align-self: flex-start; */
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  /* height: 200px;
+  width: 200px; */
+  flex-shrink: 0;
+}
+
+.btn-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  height: 130px;
+  width: 130px;
+  flex-shrink: 0;
+}
+
+.name {
+  margin-top: 20px;
+  height: 100px;
+  width: 200px;
+  border-radius: 6px;
+  background-color: #fddddb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+
+  color: #000000;
+  font-weight: 700;
+  /* align-self: flex-end; */
+}
+
+.mains {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
