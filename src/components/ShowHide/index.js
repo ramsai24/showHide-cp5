@@ -31,7 +31,8 @@ class ShowHide extends Component {
             </div>
 
             <p className="btn-container1">
-              {status1 ? <p className="name">Joe</p> : null}
+              {status1 && <p className="name">Joe</p>}
+              {!status1 && <p>{null} </p>}
             </p>
           </div>
 
@@ -43,7 +44,8 @@ class ShowHide extends Component {
             </div>
 
             <p className="btn-container1">
-              {status2 ? <p className="name">Jonas</p> : null}
+              {status2 && <p className="name">Jonas</p>}
+              {!status2 && <p> </p>}
             </p>
           </div>
         </div>
