@@ -3,7 +3,7 @@ import {Component} from 'react'
 import './index.css'
 
 class ShowHide extends Component {
-  state = {status1: true, status2: true}
+  state = {status1: false, status2: false}
 
   changeMode1 = () => {
     this.setState(preState => ({
