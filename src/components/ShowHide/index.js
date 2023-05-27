@@ -29,9 +29,9 @@ class ShowHide extends Component {
                 Show/Hide FirstName
               </button>
             </div>
-            <p className="btn-container1">
-              {status1 ? <p className="name">Joe</p> : null}
-            </p>
+
+            {status1 && <p className="name btn-container1">Joe</p>}
+            {!status1 && <p> </p>}
           </div>
 
           <div>
@@ -40,9 +40,9 @@ class ShowHide extends Component {
                 Show/Hide LastName
               </button>
             </div>
-            <p className="btn-container1">
-              {status2 ? <p className="name">Jonas</p> : null}
-            </p>
+
+            {status2 && <p className="name btn-container1">Jonas</p>}
+            {!status2 && <p> </p>}
           </div>
         </div>
       </div>
